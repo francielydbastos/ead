@@ -48,7 +48,7 @@ public class UserModel extends RepresentationModel<UserModel> implements Seriali
     @Column(length = 20)
     private String phoneNumber;
 
-    @Column(length = 255)
+    @Column
     private String imageUrl;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss")
